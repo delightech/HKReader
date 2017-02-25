@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231B55911E61738E00D21C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B55901E61738E00D21C84 /* AppDelegate.swift */; };
+		231B55931E61738E00D21C84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B55921E61738E00D21C84 /* ViewController.swift */; };
+		231B55961E61738E00D21C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231B55941E61738E00D21C84 /* Main.storyboard */; };
+		231B55991E61738E00D21C84 /* HKReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 231B55971E61738E00D21C84 /* HKReader.xcdatamodeld */; };
+		231B559B1E61738E00D21C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231B559A1E61738E00D21C84 /* Assets.xcassets */; };
+		231B559E1E61738E00D21C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231B559C1E61738E00D21C84 /* LaunchScreen.storyboard */; };
+		231B55A91E61738E00D21C84 /* HKReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B55A81E61738E00D21C84 /* HKReaderTests.swift */; };
+		231B55B41E61738E00D21C84 /* HKReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B55B31E61738E00D21C84 /* HKReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		231B55A51E61738E00D21C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231B55851E61738E00D21C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231B558C1E61738E00D21C84;
+			remoteInfo = HKReader;
+		};
+		231B55B01E61738E00D21C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231B55851E61738E00D21C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231B558C1E61738E00D21C84;
+			remoteInfo = HKReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231B558D1E61738E00D21C84 /* HKReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231B55901E61738E00D21C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		231B55921E61738E00D21C84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		231B55951E61738E00D21C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		231B55981E61738E00D21C84 /* HKReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HKReader.xcdatamodel; sourceTree = "<group>"; };
+		231B559A1E61738E00D21C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231B559D1E61738E00D21C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231B559F1E61738E00D21C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231B55A41E61738E00D21C84 /* HKReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		231B55A81E61738E00D21C84 /* HKReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKReaderTests.swift; sourceTree = "<group>"; };
+		231B55AA1E61738E00D21C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231B55AF1E61738E00D21C84 /* HKReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		231B55B31E61738E00D21C84 /* HKReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKReaderUITests.swift; sourceTree = "<group>"; };
+		231B55B51E61738E00D21C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231B558A1E61738E00D21C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231B55A11E61738E00D21C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231B55AC1E61738E00D21C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231B55841E61738E00D21C84 = {
+			isa = PBXGroup;
+			children = (
+				231B558F1E61738E00D21C84 /* HKReader */,
+				231B55A71E61738E00D21C84 /* HKReaderTests */,
+				231B55B21E61738E00D21C84 /* HKReaderUITests */,
+				231B558E1E61738E00D21C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231B558E1E61738E00D21C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231B558D1E61738E00D21C84 /* HKReader.app */,
+				231B55A41E61738E00D21C84 /* HKReaderTests.xctest */,
+				231B55AF1E61738E00D21C84 /* HKReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231B558F1E61738E00D21C84 /* HKReader */ = {
+			isa = PBXGroup;
+			children = (
+				231B55901E61738E00D21C84 /* AppDelegate.swift */,
+				231B55921E61738E00D21C84 /* ViewController.swift */,
+				231B55941E61738E00D21C84 /* Main.storyboard */,
+				231B559A1E61738E00D21C84 /* Assets.xcassets */,
+				231B559C1E61738E00D21C84 /* LaunchScreen.storyboard */,
+				231B559F1E61738E00D21C84 /* Info.plist */,
+				231B55971E61738E00D21C84 /* HKReader.xcdatamodeld */,
+			);
+			path = HKReader;
+			sourceTree = "<group>";
+		};
+		231B55A71E61738E00D21C84 /* HKReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				231B55A81E61738E00D21C84 /* HKReaderTests.swift */,
+				231B55AA1E61738E00D21C84 /* Info.plist */,
+			);
+			path = HKReaderTests;
+			sourceTree = "<group>";
+		};
+		231B55B21E61738E00D21C84 /* HKReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				231B55B31E61738E00D21C84 /* HKReaderUITests.swift */,
+				231B55B51E61738E00D21C84 /* Info.plist */,
+			);
+			path = HKReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231B558C1E61738E00D21C84 /* HKReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B55B81E61738E00D21C84 /* Build configuration list for PBXNativeTarget "HKReader" */;
+			buildPhases = (
+				231B55891E61738E00D21C84 /* Sources */,
+				231B558A1E61738E00D21C84 /* Frameworks */,
+				231B558B1E61738E00D21C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKReader;
+			productName = HKReader;
+			productReference = 231B558D1E61738E00D21C84 /* HKReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		231B55A31E61738E00D21C84 /* HKReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B55BB1E61738E00D21C84 /* Build configuration list for PBXNativeTarget "HKReaderTests" */;
+			buildPhases = (
+				231B55A01E61738E00D21C84 /* Sources */,
+				231B55A11E61738E00D21C84 /* Frameworks */,
+				231B55A21E61738E00D21C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231B55A61E61738E00D21C84 /* PBXTargetDependency */,
+			);
+			name = HKReaderTests;
+			productName = HKReaderTests;
+			productReference = 231B55A41E61738E00D21C84 /* HKReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		231B55AE1E61738E00D21C84 /* HKReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B55BE1E61738E00D21C84 /* Build configuration list for PBXNativeTarget "HKReaderUITests" */;
+			buildPhases = (
+				231B55AB1E61738E00D21C84 /* Sources */,
+				231B55AC1E61738E00D21C84 /* Frameworks */,
+				231B55AD1E61738E00D21C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231B55B11E61738E00D21C84 /* PBXTargetDependency */,
+			);
+			name = HKReaderUITests;
+			productName = HKReaderUITests;
+			productReference = 231B55AF1E61738E00D21C84 /* HKReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231B55851E61738E00D21C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Johnny;
+				TargetAttributes = {
+					231B558C1E61738E00D21C84 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					231B55A31E61738E00D21C84 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 231B558C1E61738E00D21C84;
+					};
+					231B55AE1E61738E00D21C84 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 231B558C1E61738E00D21C84;
+					};
+				};
+			};
+			buildConfigurationList = 231B55881E61738E00D21C84 /* Build configuration list for PBXProject "HKReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231B55841E61738E00D21C84;
+			productRefGroup = 231B558E1E61738E00D21C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231B558C1E61738E00D21C84 /* HKReader */,
+				231B55A31E61738E00D21C84 /* HKReaderTests */,
+				231B55AE1E61738E00D21C84 /* HKReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231B558B1E61738E00D21C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B559E1E61738E00D21C84 /* LaunchScreen.storyboard in Resources */,
+				231B559B1E61738E00D21C84 /* Assets.xcassets in Resources */,
+				231B55961E61738E00D21C84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231B55A21E61738E00D21C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231B55AD1E61738E00D21C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231B55891E61738E00D21C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B55931E61738E00D21C84 /* ViewController.swift in Sources */,
+				231B55911E61738E00D21C84 /* AppDelegate.swift in Sources */,
+				231B55991E61738E00D21C84 /* HKReader.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231B55A01E61738E00D21C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B55A91E61738E00D21C84 /* HKReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231B55AB1E61738E00D21C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B55B41E61738E00D21C84 /* HKReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		231B55A61E61738E00D21C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231B558C1E61738E00D21C84 /* HKReader */;
+			targetProxy = 231B55A51E61738E00D21C84 /* PBXContainerItemProxy */;
+		};
+		231B55B11E61738E00D21C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231B558C1E61738E00D21C84 /* HKReader */;
+			targetProxy = 231B55B01E61738E00D21C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		231B55941E61738E00D21C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231B55951E61738E00D21C84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		231B559C1E61738E00D21C84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231B559D1E61738E00D21C84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231B55B61E61738E00D21C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231B55B71E61738E00D21C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231B55B91E61738E00D21C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HKReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnny.HKReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		231B55BA1E61738E00D21C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HKReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnny.HKReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		231B55BC1E61738E00D21C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HKReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnny.HKReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HKReader.app/HKReader";
+			};
+			name = Debug;
+		};
+		231B55BD1E61738E00D21C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HKReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnny.HKReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HKReader.app/HKReader";
+			};
+			name = Release;
+		};
+		231B55BF1E61738E00D21C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HKReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnny.HKReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HKReader;
+			};
+			name = Debug;
+		};
+		231B55C01E61738E00D21C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HKReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnny.HKReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HKReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231B55881E61738E00D21C84 /* Build configuration list for PBXProject "HKReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231B55B61E61738E00D21C84 /* Debug */,
+				231B55B71E61738E00D21C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231B55B81E61738E00D21C84 /* Build configuration list for PBXNativeTarget "HKReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231B55B91E61738E00D21C84 /* Debug */,
+				231B55BA1E61738E00D21C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		231B55BB1E61738E00D21C84 /* Build configuration list for PBXNativeTarget "HKReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231B55BC1E61738E00D21C84 /* Debug */,
+				231B55BD1E61738E00D21C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		231B55BE1E61738E00D21C84 /* Build configuration list for PBXNativeTarget "HKReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231B55BF1E61738E00D21C84 /* Debug */,
+				231B55C01E61738E00D21C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		231B55971E61738E00D21C84 /* HKReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				231B55981E61738E00D21C84 /* HKReader.xcdatamodel */,
+			);
+			currentVersion = 231B55981E61738E00D21C84 /* HKReader.xcdatamodel */;
+			path = HKReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 231B55851E61738E00D21C84 /* Project object */;
+}
