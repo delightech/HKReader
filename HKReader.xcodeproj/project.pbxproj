@@ -15,6 +15,8 @@
 		231B559E1E61738E00D21C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231B559C1E61738E00D21C84 /* LaunchScreen.storyboard */; };
 		231B55A91E61738E00D21C84 /* HKReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B55A81E61738E00D21C84 /* HKReaderTests.swift */; };
 		231B55B41E61738E00D21C84 /* HKReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B55B31E61738E00D21C84 /* HKReaderUITests.swift */; };
+		231B55C21E61DB6000D21C84 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B55C11E61DB6000D21C84 /* WebViewController.swift */; };
+		231B55C41E625DB200D21C84 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B55C31E625DB200D21C84 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		231B55AF1E61738E00D21C84 /* HKReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		231B55B31E61738E00D21C84 /* HKReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKReaderUITests.swift; sourceTree = "<group>"; };
 		231B55B51E61738E00D21C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231B55C11E61DB6000D21C84 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		231B55C31E625DB200D21C84 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,10 @@
 				231B55901E61738E00D21C84 /* AppDelegate.swift */,
 				231B55921E61738E00D21C84 /* ViewController.swift */,
 				231B55941E61738E00D21C84 /* Main.storyboard */,
+				231B55C31E625DB200D21C84 /* Item.swift */,
 				231B559A1E61738E00D21C84 /* Assets.xcassets */,
 				231B559C1E61738E00D21C84 /* LaunchScreen.storyboard */,
+				231B55C11E61DB6000D21C84 /* WebViewController.swift */,
 				231B559F1E61738E00D21C84 /* Info.plist */,
 				231B55971E61738E00D21C84 /* HKReader.xcdatamodeld */,
 			);
@@ -196,7 +202,8 @@
 				TargetAttributes = {
 					231B558C1E61738E00D21C84 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 5429CA762T;
+						ProvisioningStyle = Manual;
 					};
 					231B55A31E61738E00D21C84 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -262,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B55C41E625DB200D21C84 /* Item.swift in Sources */,
 				231B55931E61738E00D21C84 /* ViewController.swift in Sources */,
 				231B55911E61738E00D21C84 /* AppDelegate.swift in Sources */,
 				231B55991E61738E00D21C84 /* HKReader.xcdatamodeld in Sources */,
+				231B55C21E61DB6000D21C84 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,11 +425,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hisafumi Kikkawa (HHM39LN2W6)";
+				DEVELOPMENT_TEAM = 5429CA762T;
 				INFOPLIST_FILE = HKReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = johnny.HKReader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinjukujohnny.HKReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de9cc90a-a7c3-424b-b225-909ade050144";
+				PROVISIONING_PROFILE_SPECIFIER = "HKReader dev";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,11 +443,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hisafumi Kikkawa (HHM39LN2W6)";
+				DEVELOPMENT_TEAM = 5429CA762T;
 				INFOPLIST_FILE = HKReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = johnny.HKReader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinjukujohnny.HKReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de9cc90a-a7c3-424b-b225-909ade050144";
+				PROVISIONING_PROFILE_SPECIFIER = "HKReader dev";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -509,6 +530,7 @@
 				231B55BA1E61738E00D21C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		231B55BB1E61738E00D21C84 /* Build configuration list for PBXNativeTarget "HKReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +539,7 @@
 				231B55BD1E61738E00D21C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		231B55BE1E61738E00D21C84 /* Build configuration list for PBXNativeTarget "HKReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +548,7 @@
 				231B55C01E61738E00D21C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
